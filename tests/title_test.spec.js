@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const { console } = require('inspector');
 
-test('Home Page', async ({ page }) => {
+test('Title URL Test', async ({ page }) => {
     var urlToPage = 'https://www.demoblaze.com/index.html'
     await page.goto(urlToPage);
 
